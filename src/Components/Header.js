@@ -12,7 +12,7 @@ function Header() {
         <div className="col-xl-6 col-lg-4 col-md-4 text-lg-left text-center">
           <a href="index.html" className="logo">
             <img src="assets/images/logo.png" alt="img" />
-            <span className="logo-text color-darkgrey">vedi</span>
+            <span className="logo-text color-darkgrey">magic shop</span>
           </a>
         </div>
         <div className="col-xl-6 col-lg-8 col-md-8 some-links text-center text-lg-right d-flex justify-content-center justify-content-md-end align-items-center mt-2 mt-md-0">
@@ -20,7 +20,7 @@ function Header() {
             className="fs-24 links-maincolor-hover font-2"
             href="tel:+88003532455"
           >
-            <mark>8 800</mark> 353-24-55
+            <mark>+90-544 </mark> 660-15-26
           </a>
           <a
             href="#"
