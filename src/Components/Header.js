@@ -64,19 +64,9 @@ function Header() {
                   {/* main nav start */}
                   <nav className="top-nav">
                     <ul className="nav sf-menu">
-                      <li className="active">
+                      <li>
                         <a href="index-2.html">Home</a>
-                        <ul>
-                          <li>
-                            <a href="index-2.html">MultiPage</a>
-                          </li>
-                          <li>
-                            <a href="index_singlepage.html">Single Page</a>
-                          </li>
-                          <li>
-                            <a href="index_blocks.html">Homeblocks</a>
-                          </li>
-                        </ul>
+                    
                       </li>
                       {/* blog */}
                       <li>
@@ -87,45 +77,7 @@ function Header() {
                               <a className={item.ico} href="blog-right.html"> {item.name}</a>
                             </li>
                           ))}
-                          {/* <li>
-                            <a className="ico ico-icon_aries" href="blog-right.html"> Aries</a>
-                          </li>
-                          <li>
-                            <a className="ico ico-icon_leo" href="blog-left.html"> Leo</a>
-                          </li>
-                          <li>
-                            <a className="ico-icon_sagittarius" href="blog-full.html"> Sagittarius</a>
-                          </li>
-                          <li>
-                            <a className="ico ico-icon_taurus" href="blog-grid.html"> Taurus</a>
-                          </li>
-                          <li>
-                            <a className="ico ico-icon_virgo" href="blog-grid.html"> Virgo</a>
-                          </li>
-                          <li>
-                            <a className="ico ico-icon_capricornius" href="blog-grid.html"> Capricornious</a>
-                          </li>
-                          <li>
-                            <a className="ico ico-icon_gemini" href="blog-grid.html"> Gemini</a>
-                          </li>
-
-                          <li>
-                            <a className="ico ico-icon_libra" href="blog-grid.html"> Libra</a>
-                          </li>
-                          <li>
-                            <a className="ico ico-icon_aquarius" href="blog-grid.html"> Aquarius</a>
-                          </li>
-                          <li>
-                            <a className="ico ico-icon_cancer" href="blog-grid.html"> Cancer</a>
-                          </li>
-                          <li>
-                            <a className="ico ico-icon_scorpio" href="blog-grid.html"> Scorpio</a>
-                          </li>
-                          <li>
-                            <a className="ico ico-icon_pisces" href="blog-grid.html"> Pisces</a>
-                          </li> */}
-
-
+                          
                         </ul>
                       </li>
                       {/* eof blog */}
@@ -569,25 +521,12 @@ function Header() {
                       {/* contacts */}
                       <li>
                         <a href="contact.html">Contact</a>
-                        <ul>
-                          <li>
-                            <a href="contact.html">Contact 1</a>
-                          </li>
-                          <li>
-                            <a href="contact2.html">Contact 2</a>
-                          </li>
-                          <li>
-                            <a href="contact3.html">Contact 3</a>
-                          </li>
-                          <li>
-                            <a href="contact4.html">Contact 4</a>
-                          </li>
-                        </ul>
+                      
                       </li>
-                      {/* eof contacts */}
+                      
                     </ul>
                   </nav>
-                  {/* eof main nav */}
+                 
                 </div>
               </div>
               <div className="col-xl-3 col-9 order-1 order-xl-2 text-xl-right text-left">
