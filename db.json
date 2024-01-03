@@ -67,10 +67,10 @@
         },
         {
             "id": 10,
-            "name": "Capricorn",
+            "name": "Capricornius",
             "date": "December 22 - January 19",
-            "ico" : "ico ico-icon_capricorn",
-            "slug": "capricorn"
+            "ico" : "ico ico-icon_capricornius",
+            "slug": "capricornius"
         },
         {
             "id": 11,
