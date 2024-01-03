@@ -241,8 +241,8 @@ function ShopHome() {
                                             </span>
                                         </div>
                                         <div className="star-rating">
-                                            <span style={{ width: "80%" }}>
-                                                Rated <strong className="rating">4.00</strong> out of 5
+                                            <span style={{ width: "60%" }}>
+                                              
                                             </span>
                                         </div>
                                         <div className="price-wrap">
@@ -251,13 +251,13 @@ function ShopHome() {
                                                     <span>$</span>58,99
                                                 </span>
                                             </span>
-                                            <a
+                                            <button
                                                 rel="nofollow"
                                                 href="shop-cart.html"
                                                 className="button product_type_simple add_to_cart_button"
                                             >
                                                 Add to cart
-                                            </a>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>

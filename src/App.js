@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Components/Home';
 import Footer from './Components/Footer';
+import Contact from './Components/Contact';
 function App() {
   return (
     <>
@@ -12,8 +13,8 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} /> */}
+            {/* <Route path="/about" element={<About />} />*/}
+            <Route path="/contact" element={<Contact />} /> 
 
             <Route path="*" element={<Home />} />
           </Routes>

@@ -99,5 +99,17 @@
             "name": "Products",
             "slug": "products"
         }
+    ],
+
+    "products": [
+        {
+            "id": 1,
+            "name": "Treasure Yellow",
+            "slug": "treasure-yellow",
+            "categoryId": 2,
+            "price": 58.99,
+            "description": "This stone will give you richy luck and money. So soon you will be richy and happy. You can not miss this chance. Buy it now! Catch your own dream! Or you will regret it.",
+            "image": "img/treasure-yellow.jpg"
+        }
     ]
 }
