@@ -97,6 +97,7 @@ function Footer() {
                     </div>
                 </div>
             </footer>
+            
             <section className="page_copyright ds ms s-py-25 s-bordertop-container">
                 <div className="container">
                     <div className="row align-items-center">

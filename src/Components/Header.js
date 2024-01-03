@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+
 function Header() {
     return (
     
@@ -61,47 +64,44 @@ function Header() {
                   <a href="blog-right.html">Blog</a>
                   <ul>
                     <li>
-                      <a href="blog-right.html">Right Sidebar</a>
+                      <a className="ico ico-icon_aries" href="blog-right.html"> Aries</a>
                     </li>
                     <li>
-                      <a href="blog-left.html">Left Sidebar</a>
+                      <a className="ico ico-icon_leo" href="blog-left.html"> Leo</a>
                     </li>
                     <li>
-                      <a href="blog-full.html">No Sidebar</a>
+                      <a className="ico-icon_sagittarius" href="blog-full.html"> Sagittarius</a>
                     </li>
                     <li>
-                      <a href="blog-grid.html">Blog Grid</a>
+                      <a className="ico ico-icon_taurus" href="blog-grid.html">Taurus</a>
                     </li>
                     <li>
-                      <a href="blog-single-right.html">Post</a>
-                      <ul>
-                        <li>
-                          <a href="blog-single-right.html">Right Sidebar</a>
-                        </li>
-                        <li>
-                          <a href="blog-single-left.html">Left Sidebar</a>
-                        </li>
-                        <li>
-                          <a href="blog-single-full.html">No Sidebar</a>
-                        </li>
-                      </ul>
+                      <a className="ico ico-icon_virgo" href="blog-grid.html"> Virgo</a>
                     </li>
                     <li>
-                      <a href="blog-single-video-right.html">Video Post</a>
-                      <ul>
-                        <li>
-                          <a href="blog-single-video-right.html">
-                            Right Sidebar
-                          </a>
-                        </li>
-                        <li>
-                          <a href="blog-single-video-left.html">Left Sidebar</a>
-                        </li>
-                        <li>
-                          <a href="blog-single-video-full.html">No Sidebar</a>
-                        </li>
-                      </ul>
+                      <a className="ico ico-icon_capricornius" href="blog-grid.html"> Capricornious</a>
                     </li>
+                    <li>
+                      <a className="ico ico-icon_gemini" href="blog-grid.html"> Gemini</a>
+                    </li>
+
+                    <li>
+                      <a className="ico ico-icon_libra" href="blog-grid.html"> Libra</a>
+                    </li>
+                    <li>
+                      <a className="ico ico-icon_aquarius" href="blog-grid.html"> Aquarius</a>
+                    </li>
+                    <li>
+                      <a className="ico ico-icon_cancer" href="blog-grid.html"> Cancer</a>
+                    </li>
+                    <li>
+                      <a className="ico ico-icon_scorpio" href="blog-grid.html"> Scorpio</a>
+                    </li>
+                    <li>
+                      <a className="ico ico-icon_pisces" href="blog-grid.html"> Pisces</a>
+                    </li>
+              
+                    
                   </ul>
                 </li>
                 {/* eof blog */}

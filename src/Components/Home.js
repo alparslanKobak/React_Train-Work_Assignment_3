@@ -13,7 +13,7 @@ function Home() {
 
 
 
-           <AboutHome />
+            <AboutHome />
 
 
 
