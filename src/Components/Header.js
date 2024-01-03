@@ -65,7 +65,7 @@ function Header() {
                   <nav className="top-nav">
                     <ul className="nav sf-menu">
                       <li>
-                        <a href="index-2.html">Home</a>
+                        <Link to="/home">Home</Link>
 
                       </li>
                       {/* blog */}
@@ -82,7 +82,7 @@ function Header() {
                       </li>
                       {/* eof blog */}
                       <li>
-                        <a href="#">About</a>
+                        <Link to="/about">About</Link>
 
                       </li>
                       {/* eof features */}

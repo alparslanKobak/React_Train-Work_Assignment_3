@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
     return (<>
 
@@ -44,7 +46,7 @@ function Footer() {
                                         <a href="about.html">About</a>
                                     </li>
                                     <li className="menu-item">
-                                        <a href="contact.html">Contact Us</a>
+                                        <Link to="/contact">Contact Us</Link>
                                     </li>
                                 </ul>
                             </div>
