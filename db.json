@@ -1,0 +1,90 @@
+{
+    "horoscopes":[
+        {
+            "id": 1,
+            "name": "Aries",
+            "date": "March 21 - April 19",
+            "ico" : "ico ico-icon_aries",
+            "slug": "aries"
+        },
+        {
+            "id": 2,
+            "name": "Taurus",
+            "date": "April 20 - May 20",
+            "ico" : "ico ico-icon_taurus",
+            "slug": "taurus"
+        },
+        {
+            "id": 3,
+            "name": "Gemini",
+            "date": "May 21 - June 20",
+            "ico" : "ico ico-icon_gemini",
+            "slug": "gemini"
+
+        },
+        {
+            "id": 4,
+            "name": "Cancer",
+            "date": "June 21 - July 22",
+            "ico" : "ico ico-icon_cancer",
+            "slug": "cancer"
+        },
+        {
+            "id": 5,
+            "name": "Leo",
+            "date": "July 23 - August 22",
+            "ico" : "ico ico-icon_leo",
+            "slug": "leo"
+        },
+        {
+            "id": 6,
+            "name": "Virgo",
+            "date": "August 23 - September 22",
+            "ico" : "ico ico-icon_virgo",
+            "slug": "virgo"
+
+        },
+        {
+            "id": 7,
+            "name": "Libra",
+            "date": "September 23 - October 22",
+            "ico" : "ico ico-icon_libra",
+            "slug": "libra"
+        },
+        {
+            "id": 8,
+            "name": "Scorpio",
+            "date": "October 23 - November 21",
+            "ico" : "ico ico-icon_scorpio",
+            "slug": "scorpio"
+        },
+        {
+            "id": 9,
+            "name": "Sagittarius",
+            "date": "November 22 - December 21",
+            "ico" : "ico ico-icon_sagittarius",
+            "slug": "sagittarius"
+        },
+        {
+            "id": 10,
+            "name": "Capricorn",
+            "date": "December 22 - January 19",
+            "ico" : "ico ico-icon_capricorn",
+            "slug": "capricorn"
+        },
+        {
+            "id": 11,
+            "name": "Aquarius",
+            "date": "January 20 - February 18",
+            "ico" : "ico ico-icon_aquarius",
+            "slug": "aquarius"
+        },
+        {
+            "id": 12,
+            "name": "Pisces",
+            "date": "February 19 - March 20",
+            "ico" : "ico ico-icon_pisces",
+            "slug": "pisces"
+        }
+    ] 
+}

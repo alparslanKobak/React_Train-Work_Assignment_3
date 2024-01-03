@@ -73,7 +73,7 @@ function Header() {
                       <a className="ico-icon_sagittarius" href="blog-full.html"> Sagittarius</a>
                     </li>
                     <li>
-                      <a className="ico ico-icon_taurus" href="blog-grid.html">Taurus</a>
+                      <a className="ico ico-icon_taurus" href="blog-grid.html"> Taurus</a>
                     </li>
                     <li>
                       <a className="ico ico-icon_virgo" href="blog-grid.html"> Virgo</a>
