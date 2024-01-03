@@ -106,6 +106,16 @@
       "price": 58.99,
       "description": "This stone will give you richy luck and money. So soon you will be richy and happy. You can not miss this chance. Buy it now! Catch your own dream! Or you will regret it.",
       "image": "img/treasure-yellow.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Gun Milan Table",
+      "slug": "gun-milan-table",
+      "categoryId": 1,
+      "price": 99.99,
+      "description": "This table will give you richy luck and money. So soon you will be richy and happy. You can not miss this chance. Buy it now! Catch your own dream! Or you will regret it.",
+      "image": "img_1.jpg"
+
     }
   ],
   "contacts": [
@@ -131,18 +141,26 @@
       "id": 3
     }
   ],
-
-  "blogs":[
+  "blogs": [
     {
-        "id":1,
-        "title":"Taurus peoples destiny",
-        "slug":"taurus-peoples-destiny",
-        "image":"Taurus.jpg",
-        "content":"Taurus is the second astrological sign in the present zodiac. It spans from 30° to 60° of the zodiac. This sign belongs to the Earth element or triplicity, and has a feminine or negative polarity, as well as a fixed modality, quality, or quadruplicity. It is a Venus-ruled sign like Libra. The Sun transits this sign from approximately April 21 until May 20 in western astrology. People born between these dates, depending on which system of astrology they subscribe to, may be called Taureans. The symbol of the bull is based on the Cretan Bull, the white bull that fathered the Minotaur who was killed by Theseus. In this summer constellation's official depiction, it is facing right, with its head upraised; the nearby constellation of Orion can be imagined as a hunter raising his arm in victory over the bull's demise. The bull's horns were represented by the V-shaped group of stars located in the head of the constellation. Then you ll be rich...",
-        "date":"2024-01-01",
-        "author":"Berke Jan",
-        "horoscopeId":2
-
+      "id": 1,
+      "title": "Taurus peoples destiny",
+      "slug": "taurus-peoples-destiny",
+      "image": "Taurus.jpg",
+      "content": "Taurus is the second astrological sign in the present zodiac. It spans from 30° to 60° of the zodiac. This sign belongs to the Earth element or triplicity, and has a feminine or negative polarity, as well as a fixed modality, quality, or quadruplicity. It is a Venus-ruled sign like Libra. The Sun transits this sign from approximately April 21 until May 20 in western astrology. People born between these dates, depending on which system of astrology they subscribe to, may be called Taureans. The symbol of the bull is based on the Cretan Bull, the white bull that fathered the Minotaur who was killed by Theseus. In this summer constellation's official depiction, it is facing right, with its head upraised; the nearby constellation of Orion can be imagined as a hunter raising his arm in victory over the bull's demise. The bull's horns were represented by the V-shaped group of stars located in the head of the constellation. Then you ll be rich...",
+      "date": "2024-01-01",
+      "author": "Berke Jan",
+      "horoscopeId": 2
+    },
+    {
+      "id": 2,
+      "title": "Aries peoples destiny",
+      "slug": "aries-peoples-destiny",
+      "image": "Aries.jpg",
+      "content": "Aries is the first astrological sign in the zodiac, spanning the first 30 degrees of celestial longitude. Under the tropical zodiac, the Sun transits this sign from approximately March 20 to April 21 each year. This time duration is exactly the first month of Solar Hejri calendar (Farvardin). Under the sidereal zodiac, the sun currently transits Aries from April 15 to 14 May (approximately). The symbol of the ram is based on the Chrysomallus, the flying ram that provided the Golden Fleece. The fleece is a symbol of authority and kingship. It is also present in the coat of arms of the city of Candia, where the Minotaur killed by Theseus came from. Aries zodiac sign, Jantar Mantar, Jaipur, India. Aries zodiac sign, Jantar Mantar, Jaipur, India. Aries is the first fire sign in the zodiac, the other fire signs being Leo and Sagittarius. Individuals born between these dates, depending on which system of astrology they subscribe to, may be called Arians or Ariens. It is one of the six positive signs. In Greek Mythology, the symbol of the ram is based on the Chrysomallus, the flying ram that rescue Phrixus and Helle, the children of the Boeotian king Athamas and provided the Golden Fleece... Then you ll be rich...",
+      "date": "2024-01-01",
+      "author": "Berke Jan",
+      "horoscopeId": 1
     }
   ]
 }

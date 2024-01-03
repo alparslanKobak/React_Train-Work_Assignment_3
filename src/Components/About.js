@@ -1,4 +1,5 @@
 import AboutHome from "./AboutHome";
+import SectionFeatures from "./SectionFeatures";
 import ServicesAbout from "./ServicesAbout";
 
 
@@ -9,6 +10,8 @@ function About() {
         <AboutHome />
 
         <ServicesAbout />
+
+        <SectionFeatures />
         
         
         </>
