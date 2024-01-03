@@ -1,11 +1,21 @@
+
+import { useEffect } from "react";
+
 function Contact() {
+
+   
+        // Sayfayı yenile
+ 
+    
+
+
     return (<>
 
 
         <section className="ds s-py-90 s-py-xl-150">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-8 animate" data-animation="scaleAppear">
+                    <div className="col-lg-8" data-animation="scaleAppear">
                         <div className="ds bs box-shadow bordered p-40">
                             <form
                                 className="contact-form c-mb-15 c-gutter-15"
@@ -30,6 +40,23 @@ function Contact() {
                                                 id="name"
                                                 className="form-control"
                                                 placeholder="Name"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className="col-12">
+                                        <div className="form-group has-placeholder">
+                                            <label htmlFor="phoneNumber">
+                                                Phone Number <span className="required">*</span>
+                                            </label>
+                                            <input
+                                                type="text"
+                                                aria-required="true"
+                                                size={30}
+                                                defaultValue=""
+                                                name="phoneNumber"
+                                                id="phoneNumber"
+                                                className="form-control"
+                                                placeholder="Phone Number"
                                             />
                                         </div>
                                     </div>
@@ -85,7 +112,7 @@ function Contact() {
                         <div className="divider-60 divider-lg-0" />
                     </div>
                     {/*.col-* */}
-                    <div className="col-lg-4 animate" data-animation="scaleAppear">
+                    <div className="col-lg-4 " data-animation="scaleAppear">
                         <div className="ds bs box-shadow bordered p-40">
                             <h4 className="mb-4 color-main2">Contact Info</h4>
                             <div className="media mb-20">
