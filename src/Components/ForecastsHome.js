@@ -5,10 +5,7 @@ import axios from 'axios';
 
 function ForecastsHome() {
 
-
-
     const [horoscopes, setHoroscopes] = useState([]);
-
 
     useEffect(() => {
 
@@ -46,27 +43,10 @@ function ForecastsHome() {
                         </p>
                         <div className="divider-40 divider-xl-60" />
                     </div>
-                    {/* <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="vertical-item text-center  content-padding corner-box">
-                            <div className="item-content">
-                                <div className="icon-styled fs-50">
-                                    <a
-                                        href="forecast-page.html"
-                                        className="color-darkgrey ico ico-icon_aries"
-                                    />
-                                </div>
-                                <h5 className="mt-4 mt-lg-5 fs-20 links-maincolor2">
-                                    <a href="forecast-page.html">Aries</a>
-                                </h5>
-                                <p>Mar 21 - Apr 19</p>
-                            </div>
-                        </div>
-                    </div> */}
-                    {/* .col-* */}
 
                     {horoscopes.map((item) => (
-                          
-                            <div key={item.id}  className="col-xl-3 col-lg-4 col-md-6">
+
+                        <div key={item.id} className="col-xl-3 col-lg-4 col-md-6">
                             <div className="vertical-item text-center  content-padding corner-box">
                                 <div className="item-content">
                                     <div className="icon-styled fs-50">
@@ -82,196 +62,8 @@ function ForecastsHome() {
                                 </div>
                             </div>
                         </div>
-                            
-                          ))}
 
-                    {/* <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="vertical-item text-center  content-padding corner-box">
-                            <div className="item-content">
-                                <div className="icon-styled fs-50">
-                                    <a
-                                        href="forecast-page.html"
-                                        className="color-darkgrey ico ico-icon_taurus"
-                                    />
-                                </div>
-                                <h5 className="mt-4 mt-lg-5 fs-20 links-maincolor2">
-                                    <a href="forecast-page.html">Taurus</a>
-                                </h5>
-                                <p>Apr 20 - May 20</p>
-                            </div>
-                        </div>
-                    </div> */}
-                    {/* .col-* */}
-                    {/* <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="vertical-item text-center  content-padding corner-box">
-                            <div className="item-content">
-                                <div className="icon-styled fs-50">
-                                    <a
-                                        href="forecast-page.html"
-                                        className="color-darkgrey ico ico-icon_gemini"
-                                    />
-                                </div>
-                                <h5 className="mt-4 mt-lg-5 fs-20 links-maincolor2">
-                                    <a href="forecast-page.html">Gemini</a>
-                                </h5>
-                                <p>May 21 - Jun 20</p>
-                            </div>
-                        </div>
-                    </div> */}
-                    {/* .col-* */}
-                    {/* <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="vertical-item text-center  content-padding corner-box">
-                            <div className="item-content">
-                                <div className="icon-styled fs-50">
-                                    <a
-                                        href="forecast-page.html"
-                                        className="color-darkgrey ico ico-icon_cancer"
-                                    />
-                                </div>
-                                <h5 className="mt-4 mt-lg-5 fs-20 links-maincolor2">
-                                    <a href="forecast-page.html">Cancer</a>
-                                </h5>
-                                <p>Jun 21 - Jul 22</p>
-                            </div>
-                        </div>
-                    </div> */}
-                    {/* .col-* */}
-                    {/* <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="vertical-item text-center  content-padding corner-box">
-                            <div className="item-content">
-                                <div className="icon-styled fs-50">
-                                    <a
-                                        href="forecast-page.html"
-                                        className="color-darkgrey ico ico-icon_leo"
-                                    />
-                                </div>
-                                <h5 className="mt-4 mt-lg-5 fs-20 links-maincolor2">
-                                    <a href="forecast-page.html">Leo</a>
-                                </h5>
-                                <p>Jul 23 - Aug 22</p>
-                            </div>
-                        </div>
-                    </div> */}
-                    {/* .col-* */}
-                    {/* <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="vertical-item text-center  content-padding corner-box">
-                            <div className="item-content">
-                                <div className="icon-styled fs-50">
-                                    <a
-                                        href="forecast-page.html"
-                                        className="color-darkgrey ico ico-icon_virgo"
-                                    />
-                                </div>
-                                <h5 className="mt-4 mt-lg-5 fs-20 links-maincolor2">
-                                    <a href="forecast-page.html">Virgo</a>
-                                </h5>
-                                <p>Aug 23 - Sep 22</p>
-                            </div>
-                        </div>
-                    </div> */}
-                    {/* .col-* */}
-                    {/* <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="vertical-item text-center  content-padding corner-box">
-                            <div className="item-content">
-                                <div className="icon-styled fs-50">
-                                    <a
-                                        href="forecast-page.html"
-                                        className="color-darkgrey ico ico-icon_libra"
-                                    />
-                                </div>
-                                <h5 className="mt-4 mt-lg-5 fs-20 links-maincolor2">
-                                    <a href="forecast-page.html">Libra</a>
-                                </h5>
-                                <p>Sep 23 - Oct 22</p>
-                            </div>
-                        </div>
-                    </div> */}
-                    {/* .col-* */}
-                    {/* <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="vertical-item text-center  content-padding corner-box">
-                            <div className="item-content">
-                                <div className="icon-styled fs-50">
-                                    <a
-                                        href="forecast-page.html"
-                                        className="color-darkgrey ico ico-icon_scorpio"
-                                    />
-                                </div>
-                                <h5 className="mt-4 mt-lg-5 fs-20 links-maincolor2">
-                                    <a href="forecast-page.html">Scorpio</a>
-                                </h5>
-                                <p>Oct 23 - Nov 21</p>
-                            </div>
-                        </div>
-                    </div> */}
-                    {/* .col-* */}
-                    {/* <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="vertical-item text-center  content-padding corner-box">
-                            <div className="item-content">
-                                <div className="icon-styled fs-50">
-                                    <a
-                                        href="forecast-page.html"
-                                        className="color-darkgrey ico ico-icon_sagittarius"
-                                    />
-                                </div>
-                                <h5 className="mt-4 mt-lg-5 fs-20 links-maincolor2">
-                                    <a href="forecast-page.html">Sagittarius</a>
-                                </h5>
-                                <p>Nov 22 - Dec 21</p>
-                            </div>
-                        </div>
-                    </div> */}
-                    {/* .col-* */}
-                    {/* <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="vertical-item text-center  content-padding corner-box">
-                            <div className="item-content">
-                                <div className="icon-styled fs-50">
-                                    <a
-                                        href="forecast-page.html"
-                                        className="color-darkgrey ico ico-icon_capricornius"
-                                    />
-                                </div>
-                                <h5 className="mt-4 mt-lg-5 fs-20 links-maincolor2">
-                                    <a href="forecast-page.html">Capricornius</a>
-                                </h5>
-                                <p>Dec 22 - Jan 19</p>
-                            </div>
-                        </div>
-                    </div> */}
-                    {/* .col-* */}
-                    {/* <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="vertical-item text-center  content-padding corner-box">
-                            <div className="item-content">
-                                <div className="icon-styled fs-50">
-                                    <a
-                                        href="forecast-page.html"
-                                        className="color-darkgrey ico ico-icon_aquarius"
-                                    />
-                                </div>
-                                <h5 className="mt-4 mt-lg-5 fs-20 links-maincolor2">
-                                    <a href="forecast-page.html">Aquarius</a>
-                                </h5>
-                                <p>Jan 20 - Feb 18</p>
-                            </div>
-                        </div>
-                    </div> */}
-                    {/* .col-* */}
-                    {/* <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="vertical-item text-center  content-padding corner-box">
-                            <div className="item-content">
-                                <div className="icon-styled fs-50">
-                                    <a
-                                        href="forecast-page.html"
-                                        className="color-darkgrey ico ico-icon_pisces"
-                                    />
-                                </div>
-                                <h5 className="mt-4 mt-lg-5 fs-20 links-maincolor2">
-                                    <a href="forecast-page.html">Pisces</a>
-                                </h5>
-                                <p>Feb 19 - Mar 20</p>
-                            </div>
-                        </div>
-                    </div> */}
-                    
+                    ))}
                 </div>
             </div>
         </section>

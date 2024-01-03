@@ -62,8 +62,8 @@ function Footer() {
                             <div className="widget widget_text">
                                 <h3>Contact Info</h3>
                                 <p>
-                                    477 Jehovah Drive <br />
-                                    Lexington, VA 24450
+                                    Caferağa Street 32/16 <br />
+                                    Kadıköy / İstanbul
                                 </p>
                                 <p className="social-icons">
                                     <a
@@ -103,7 +103,7 @@ function Footer() {
                     <div className="row align-items-center">
                         <div className="col-md-12 text-center">
                             <p>
-                                © Copyright <span className="copyright_year">2020</span> All Rights
+                                © Copyright <span className="copyright_year">2024</span> All Rights
                                 Reserved
                             </p>
                         </div>
