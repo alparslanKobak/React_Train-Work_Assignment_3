@@ -1,12 +1,48 @@
+import { useState } from 'react';
+import axios from 'axios';
 
-import { useEffect } from "react";
 
 function Contact() {
 
-   
-        // Sayfayı yenile
- 
+
     
+    const [formData, setFormData] = useState({
+        name: '',
+        phoneNumber: '',
+        email: '',
+        message: ''
+    });
+
+    
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value
+        });
+    };
+
+    
+    const handleSubmit = async (e) => {
+        e.preventDefault(); 
+        try {
+            const response = await axios.post('http://localhost:3000/contacts', formData);
+            console.log(response.data); 
+            setFormData({
+                name: '',
+                phoneNumber: '',
+                email: '',
+                message: ''
+            });
+            alert("Form başarıyla gönderildi!");
+         
+        } catch (error) {
+            console.error("Form gönderilirken bir hata oluştu!", error);
+         
+        }
+    };
+
+
 
 
     return (<>
@@ -21,6 +57,7 @@ function Contact() {
                                 className="contact-form c-mb-15 c-gutter-15"
                                 method="post"
                                 action="https://html.modernwebtemplates.com/"
+                                onSubmit={handleSubmit}
                             >
                                 <div className="row">
                                     <div className="col-12">
@@ -40,6 +77,8 @@ function Contact() {
                                                 id="name"
                                                 className="form-control"
                                                 placeholder="Name"
+                                                value={formData.name}
+                                                onChange={handleChange}
                                             />
                                         </div>
                                     </div>
@@ -57,6 +96,8 @@ function Contact() {
                                                 id="phoneNumber"
                                                 className="form-control"
                                                 placeholder="Phone Number"
+                                                value={formData.phoneNumber}
+                                                onChange={handleChange}
                                             />
                                         </div>
                                     </div>
@@ -74,6 +115,8 @@ function Contact() {
                                                 id="email"
                                                 className="form-control"
                                                 placeholder="Email"
+                                                value={formData.email}
+                                                onChange={handleChange}
                                             />
                                         </div>
                                     </div>
@@ -89,6 +132,8 @@ function Contact() {
                                                 className="form-control"
                                                 placeholder="Message"
                                                 defaultValue={""}
+                                                value={formData.message}
+                                                onChange={handleChange}
                                             />
                                         </div>
                                     </div>
@@ -101,6 +146,7 @@ function Contact() {
                                                 id="contact_form_submit"
                                                 name="contact_submit"
                                                 className="btn btn-maincolor"
+                                                onClick={handleSubmit}
                                             >
                                                 Send Message
                                             </button>
