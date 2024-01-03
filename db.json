@@ -86,5 +86,18 @@
             "ico" : "ico ico-icon_pisces",
             "slug": "pisces"
         }
-    ] 
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Services",
+            "slug": "services"
+            
+        },
+        {
+            "id": 2,
+            "name": "Products",
+            "slug": "products"
+        }
+    ]
 }

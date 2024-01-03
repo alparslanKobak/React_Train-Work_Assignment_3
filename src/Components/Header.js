@@ -210,7 +210,7 @@ function Header() {
                       </li>
                       {/* eof features */}
                       <li>
-                        <a href="about.html">Pages</a>
+                        <a href="about.html">Cart</a>
                         <ul>
                           <li>
                             <a href="about.html">About</a>

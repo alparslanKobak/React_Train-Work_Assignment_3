@@ -28,9 +28,7 @@ function Footer() {
                                     <li className="menu-item">
                                         <a href="services2.html">Services</a>
                                     </li>
-                                    <li className="menu-item">
-                                        <a href="service-single.html">Single Service</a>
-                                    </li>
+                              
                                 </ul>
                             </div>
                             <div className="divider-60 divider-lg-0" />
@@ -42,9 +40,6 @@ function Footer() {
                             <div className="widget widget_nav_menu">
                                 <h3>About Me</h3>
                                 <ul className="menu">
-                                    <li className="menu-item">
-                                        <a href="index_blocks.html">Homeblocks</a>
-                                    </li>
                                     <li className="menu-item">
                                         <a href="about.html">About</a>
                                     </li>
@@ -67,27 +62,27 @@ function Footer() {
                                 </p>
                                 <p className="social-icons">
                                     <a
-                                        href="https://www.facebook.com/"
+                                        href="https://www.linkedin.com/in/alparslan-kobak-5a98831b5/"
                                         className="fa fa-facebook"
                                         title="facebook"
                                     />
                                     <a
-                                        href="https://twitter.com/"
+                                        href="https://www.linkedin.com/in/alparslan-kobak-5a98831b5/"
                                         className="fa fa-twitter"
                                         title="twitter"
                                     />
                                     <a
-                                        href="https://www.instagram.com/"
+                                        href="https://www.linkedin.com/in/alparslan-kobak-5a98831b5/"
                                         className="fa fa-instagram"
                                         title="instagram"
                                     />
                                     <a
-                                        href="https://www.linkedin.com/"
+                                        href="https://www.linkedin.com/in/alparslan-kobak-5a98831b5/"
                                         className="fa fa-linkedin"
                                         title="linkedin"
                                     />
                                     <a
-                                        href="https://www.youtube.com/"
+                                        href="https://www.linkedin.com/in/alparslan-kobak-5a98831b5/"
                                         className="fa fa-youtube-play"
                                         title="youtube"
                                     />
